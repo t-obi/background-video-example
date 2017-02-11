@@ -1,0 +1,40 @@
+.video-container {
+  min-height: 100vh;
+}
+.hero-video {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display:inline-block;
+}
+/* in this example we are "vertically-centering" the caption */
+ .hero-caption {
+  color:white;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font: 0/0 a;
+}
+.hero-caption:before {
+  content:' ';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hero-caption-inner {
+  font: 16px/1 Helvetica;
+  /* Reset the font property */
+  display: inline-block;
+  vertical-align: middle;
+  text-align:left;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
